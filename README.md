@@ -12,6 +12,7 @@ INSERT INTO Data (users,codekata,attendance,topics,tasks,company_drives,mentors,
 3.get number problems solved in codekata by combining the users
 Ans:
 SELECT sum(codekata) as Total_solved_codekata FROM data
+
 <img src="https://i.imgur.com/x0QCBgU.png">
 
 4.display the no of company drives attended by a user
